@@ -11,6 +11,8 @@ function App() {
 
     const res = await axios.get(
       `https://api.dictionaryapi.dev/api/v2/entries/en/${input}`
+    
+   
     );
 
     setData(res.data);
